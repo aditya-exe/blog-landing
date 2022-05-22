@@ -5,7 +5,7 @@
     <title>Blog Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="font-body">
 <div class="container px-4 mx-auto max-w-5xl">
     <div class="text-center py-14">
         <h1 class="text-5xl font-bold font-title text-sec">
@@ -18,8 +18,40 @@
         <p class="text-pri max-w-xs mx-auto py-6">
             Welcome to our blog site. Get our latest news with just one search!
         </p>
-        <input type="search" name="" id="" class="bg-bg px-8 py-2 rounded-3xl shadow-inner ring-sec focus:outline-none focus:ring-1" placeholder="Search..">
+        <input type="search" name="" id=""
+               class="bg-bg px-8 py-2 rounded-3xl shadow-inner ring-sec focus:outline-none focus:ring-1"
+               placeholder="Search..">
     </div>
+    <section class="main">
+        <div class="grid grid-cols-3">
+            <div class="col-span-3">
+                <a href="#"
+                   class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-500 hover:shadow-xl mb-12">
+                    <div class="w-1/2">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                    <div class="w-1/2 p-7">
+                        <p class="px-3 py-1 bg-bg rounded text-sec text xs inline">FEATURED</p>
+                        <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration-200 hover:text-sec">
+                            Why it is important to follow a Brand Style Guide for your business?</h2>
+                        <p class="text-gen pb-5">
+                            A brand style guide is also known as a brand guide or brand book. For many companies, the
+                            guide is essential to maintain their brand identity. For them, such a well-thought-of guide
+                            becomes their key document, which serves as a guide to create a variety of content for brand
+                            marketing
+                        </p>
+                        <div class="flex items-center">
+                            <img src="img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                            <div class="pl-3">
+                                <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                                <p class="text-xs text-gen">Brand Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 </div>
 </body>
 </html>
