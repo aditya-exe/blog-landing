@@ -1,0 +1,13 @@
+{
+  "name": "blog-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "tailwindcss": "^3.0.24"
+  }
+}
